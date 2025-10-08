@@ -1,0 +1,66 @@
+.vehicle-manager {
+  margin-top: 80px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.add-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-form input {
+  padding: 8px;
+  border: 1px solid #090000;
+  border-radius: 6px;
+}
+
+.add-form button {
+  padding: 8px 12px;
+  background: #12bc4b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-form button:hover {
+  background: #0c841e;
+}
+
+.vehicle-list {
+  display: grid;
+  gap: 15px;
+}
+
+.vehicle-card {
+  background: #878484;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.vehicle-card:hover {
+  transform: scale(1.02);
+  background: #100d0d;
+}
+
+.vehicle-card button {
+  padding: 6px 10px;
+  background: crimson;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.vehicle-card button:hover {
+  background: darkred;
+}

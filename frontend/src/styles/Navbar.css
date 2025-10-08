@@ -1,0 +1,73 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  background: linear-gradient(135deg, #43CBFF, #9708CC);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Logo + Brand */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  
+  gap: 10px;
+}
+
+.logo {
+  height: 45px;
+}
+
+.brand {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* Center Links */
+.navbar-center {
+  padding: 50px;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar-center a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-center a:hover {
+  
+  color: black;
+}
+
+/* Right Button */
+
+
+.login-btn {
+  background: black;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: white;
+  color: black;
+}

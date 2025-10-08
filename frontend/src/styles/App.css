@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: radial-gradient( circle farthest-corner at -5.6% -6.8%,  rgba(103,49,145,1) 37.3%, rgba(50,0,129,1) 73.5% );
+  color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* or your theme color */
+  height: 70px; /* adjust as needed */
+  padding-right: 400px;
+}
+
+
+footer {
+  background: #0a0a0a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

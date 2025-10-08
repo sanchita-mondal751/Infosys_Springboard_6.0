@@ -1,0 +1,85 @@
+
+/* White container centered */
+.Health-container {
+  width: 400px;
+  max-width: 90%;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9); /* semi-transparent white */
+  color: #000; /* black text inside container */
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+
+  /* Center in viewport */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Heading inside container */
+.Health-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #000;
+}
+
+/* Form styles */
+.car-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.car-form input[type="number"] {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.car-form label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  gap: 10px;
+  color: #000;
+}
+
+.car-form button {
+  padding: 12px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.car-form button:hover {
+  background-color: #2980b9;
+}
+
+/* Status message */
+.status-message {
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  color: #fff; /* text on green background */
+  font-weight: bold;
+  background-color: #27ae60; /* green background for success */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 450px) {
+  .Health-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .car-form button {
+    font-size: 14px;
+  }
+}

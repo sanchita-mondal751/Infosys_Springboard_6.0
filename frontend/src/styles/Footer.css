@@ -1,0 +1,46 @@
+.footer {
+  background: #0d1b2a;
+  color: #fff;
+  padding: 30px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-brand h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #00aaff;
+}
+
+.footer-contact p,
+.footer-social h3 {
+  margin: 5px 0;
+}
+
+.footer-social .social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 1.5rem;
+}
+
+.footer-social .social-icons a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.footer-social .social-icons a:hover {
+  color: #00aaff;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  font-size: 0.9rem;
+}
