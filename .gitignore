@@ -5,3 +5,4 @@ frontend/.env*
 backend/target/
 backend/.DS_Store
 backend/*.env
+backend/src/main/resources/application.properties
